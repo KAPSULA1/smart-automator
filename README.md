@@ -63,11 +63,11 @@ Then open: http://127.0.0.1:5000
 
 🧠 Example Output
 🖥️ Terminal Output
-
+![Terminal Output](./assets/terminal_output.png)
 📊 Dashboard View
-
+![Dashboard View](./assets/dashboard_view.png)
 📁 CSV Export
-
+![CSV Export](./assets/csv_preview.png)
 🔍 Tech Stack
 Python 3.12
 
