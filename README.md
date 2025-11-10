@@ -30,8 +30,7 @@ smart_automator/
 ├── reports/
 └── tests/
 
-yaml
-Copy code
+
 
 ---
 
