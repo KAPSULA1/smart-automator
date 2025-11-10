@@ -30,7 +30,8 @@ smart_automator/
 ├── reports/
 └── tests/
 
-
+yaml
+Copy code
 
 ---
 
@@ -39,7 +40,7 @@ smart_automator/
 ### Run Locally
 
 ```bash
-git clone https://github.com/YOURUSERNAME/smart_automator.git
+git clone https://github.com/KAPSULA1/smart-automator.git
 cd smart_automator
 python3 -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
@@ -49,23 +50,23 @@ python main.py
 
 # Run tests
 pytest -v
-Run with Docker
+🐳 Run with Docker
 bash
 Copy code
 docker build -t smart-automator .
 docker run --rm -v $(pwd)/reports:/app/reports smart-automator
-Optional: Dashboard
+📊 Optional: Dashboard
 bash
 Copy code
 python dashboard/view_results.py
-Then open http://127.0.0.1:5000
+Then open: http://127.0.0.1:5000
 
 🧠 Example Output
-Terminal Output
+🖥️ Terminal Output
 
-Dashboard View
+📊 Dashboard View
 
-CSV Export
+📁 CSV Export
 
 🔍 Tech Stack
 Python 3.12
@@ -88,6 +89,8 @@ Reliable headless execution (Ubuntu CI/CD ready)
 Modular and testable Page Object Model design
 
 Clean, maintainable, and extensible codebase
+
+Note: GitHub Actions are temporarily disabled on this account — the project is fully CI/CD ready.
 
 📩 Contact
 Giorgi Kapo
