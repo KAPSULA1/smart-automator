@@ -47,27 +47,32 @@ python main.py
 
 # Run tests
 pytest -v
+```
 
-🐳 Run with Docker
+### 🐳 Run with Docker
 
+```bash
 docker build -t smart-automator .
 docker run --rm -v $(pwd)/reports:/app/reports smart-automator
+```
 
-📊 Optional: Dashboard
+### 📊 Optional: Dashboard
 
+```bash
 python dashboard/view_results.py
+```
 Then open: http://127.0.0.1:5000
 
 
 🧠 Example Output
 ### 🖥️ Terminal Output
-![Terminal Output](https://raw.githubusercontent.com/KAPSULA1/smart-automator/main/assets/terminal_output.png)
+![Terminal Output](assets/terminal_output.png)
 
 ### 📊 Dashboard View
-![Dashboard View](https://raw.githubusercontent.com/KAPSULA1/smart-automator/main/assets/dashboard_view.png)
+![Dashboard View](assets/dashboard_view.png)
 
 ### 📁 CSV Export
-![CSV Export](https://raw.githubusercontent.com/KAPSULA1/smart-automator/main/assets/csv_preview.png)
+![CSV Export](assets/csv_preview.png)
 
 
 🔍 Tech Stack
