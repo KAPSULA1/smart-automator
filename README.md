@@ -30,9 +30,6 @@ smart_automator/
 ├── reports/
 └── tests/
 
-yaml
-Copy code
-
 ---
 
 ## 🚀 Quick Start
@@ -50,25 +47,31 @@ python main.py
 
 # Run tests
 pytest -v
+
 🐳 Run with Docker
-bash
-Copy code
+
 docker build -t smart-automator .
 docker run --rm -v $(pwd)/reports:/app/reports smart-automator
+
 📊 Optional: Dashboard
-bash
-Copy code
+
 python dashboard/view_results.py
 Then open: http://127.0.0.1:5000
 
+
 🧠 Example Output
-🖥️ Terminal Output
-![Terminal Output](./assets/terminal_output.png)
-📊 Dashboard View
-![Dashboard View](./assets/dashboard_view.png)
-📁 CSV Export
-![CSV Export](./assets/csv_preview.png)
+### 🖥️ Terminal Output
+![Terminal Output](https://raw.githubusercontent.com/KAPSULA1/smart-automator/main/assets/terminal_output.png)
+
+### 📊 Dashboard View
+![Dashboard View](https://raw.githubusercontent.com/KAPSULA1/smart-automator/main/assets/dashboard_view.png)
+
+### 📁 CSV Export
+![CSV Export](https://raw.githubusercontent.com/KAPSULA1/smart-automator/main/assets/csv_preview.png)
+
+
 🔍 Tech Stack
+
 Python 3.12
 
 Selenium 4.25
@@ -82,6 +85,7 @@ Flask
 Rich / Tabulate
 
 💬 About This Demo
+
 This project demonstrates professional Selenium automation architecture with:
 
 Reliable headless execution (Ubuntu CI/CD ready)
@@ -93,7 +97,9 @@ Clean, maintainable, and extensible codebase
 Note: GitHub Actions are temporarily disabled on this account — the project is fully CI/CD ready.
 
 📩 Contact
+
 Giorgi Kapo
 Python Automation Engineer
 📧 giorgikapanadze222@gmail.com
+
 🌐 https://github.com/KAPSULA1
